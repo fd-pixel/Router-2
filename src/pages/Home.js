@@ -8,7 +8,7 @@ const Home = () => {
   const url = "https://jsonplaceholder.typicode.com/albums";
 
   const postHandler = (id) => {
-    history.push(`details/${id}`);
+    history.push(`/details/${id}`);
     console.log(id);
   };
 
