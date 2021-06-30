@@ -9,7 +9,7 @@ function App() {
       <div className="App">
         <Switch>
           <Route path="/Router-2/" exact component={Home}></Route>
-          <Route path="/details/:id" component={Details}></Route>
+          <Route path="/Router-2/details/:id" component={Details}></Route>
         </Switch>
       </div>
     </Router>
